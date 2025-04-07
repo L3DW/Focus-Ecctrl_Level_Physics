@@ -1,8 +1,9 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "An interactive 3D web application featuring a controllable character, dynamic levels, and realistic physics simulation.",
+  "keywords": ["react", "three.js", "3D", "physics", "interactive", "web-app"],
+  "author": "Brett Williams",
   "main": "src/index.tsx",
   "dependencies": {
     "ecctrl": "1.0.91",
