@@ -1,0 +1,30 @@
+/* 
+  Universal selector to apply box-sizing to all elements.
+  Ensures padding and border are included in the element's total width and height.
+*/
+* {
+  box-sizing: border-box;
+}
+
+/* 
+  Set the root HTML, body, and #root container to occupy the full viewport.
+  Removes default margin and padding for a clean layout.
+*/
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* 
+  Fixes the body position and prevents scrolling.
+  Useful for full-screen applications.
+*/
+body {
+  position: fixed;
+  overflow: hidden;
+}
